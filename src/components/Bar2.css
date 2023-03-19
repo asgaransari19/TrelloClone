@@ -1,0 +1,114 @@
+
+.leftSideData{
+    display: flex;
+    background-color: #4169E1;
+    width: 100%;
+    justify-content: flex-start;
+    height: 40px;
+    align-items: center;
+}
+
+.rightSideData{
+    margin-right: 40px;
+    display: flex;
+    background-color: #4169E1;
+    width: 100%;
+    justify-content: flex-end;
+    height: 40px;
+    align-items: center;
+}
+
+.bar_2{
+    background-color: #4169E1;
+    display: flex;
+    justify-content:space-around;
+    height: 40px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.textIcon{
+    height: 30px;
+    color: #fff;
+    background: hsla(0,0%,100%,.3);
+    font-size: 13px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.leftbar{
+    margin-left: 5px;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-items: save;
+}
+
+.leftbar>button{
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    background-color: hsla(0,0%,100%,.3);
+    box-shadow: none;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 4px 0 0;
+    padding: 0;
+    margin-left: 10px;
+    white-space: nowrap;
+    
+}
+.rightbar{
+    display: flex;
+    align-items: flex-end;
+    margin:5px ;
+    color : white
+}
+.show {
+    font-size: 13px;
+}
+.rightbar > button{
+    border-radius: 2.5px;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    background-color: hsla(0,0%,100%,.3);
+    box-shadow: none;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    height: 32px;
+    justify-content: center;
+    margin-right: 20px;
+    line-height: 32px;
+    margin: 0 4px 0 0;
+    padding: 0;
+    white-space: nowrap;
+}
+@media screen and (max-width:480px) {
+    .bar_2 {
+        width:130%;
+        
+
+    }
+  }
+
+@media screen and (max-width:600px) {
+    .bar_2 {
+        width:150%;
+        
+
+    }
+  } 

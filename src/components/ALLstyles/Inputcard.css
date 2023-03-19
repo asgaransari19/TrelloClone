@@ -1,0 +1,27 @@
+.card{
+    padding: 10px  ;
+    margin: 0px 16px 16px 16px;
+}
+.confirm>button{
+    background: black;
+    color: #fff;
+    padding: 10px;
+    margin-left: -20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.confirm>input{
+    margin-left: -28px;
+    position: relative;
+    overflow: hidden;
+    padding: 6px 70px 42px;
+    position: relative;
+}
+
+.confirm{
+    margin: 0px 16px 16px 16px;
+
+}
